@@ -1,0 +1,102 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# PEP 582; used by e.g. python(pdm)
+__pypackages__/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+.venv
+venv/
+venv.bak/
+venv.bck/
+ENV/
+.venv/*
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries/
+.idea/vcs.xml
+.idea/.name
+.idea/*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+*.out
+
+# Security
+*.pem
+*.key
+*.crt
+
+# Other
+*.sqlite3
+*.bak
+*.swp
+*.swo
