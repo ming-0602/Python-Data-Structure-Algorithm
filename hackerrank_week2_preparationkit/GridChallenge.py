@@ -2,12 +2,19 @@ def gridChallenge(grid):
     # Write your code here
     # sort the array element
     # compare the the a[0] < a[1]
-    temlist = []
     for i in grid:
-        temlist.append(len(list(i)))
+        temchararr = list(i)
+        # print(temchararr.sort())
+        sortedtemchar = sorted(temchararr)
+        print(sortedtemchar)
+        index = 0
+        while (index < sortedtemchar.size()):
+            if (sortedtemchar[index + 1] - sortedtemchar[index] != 1):
+                return "NO"
+            index += 1
 
-    result = all(i == temlist[0] for i in temlist)
-    if result is True:
-        return "YES"
-    else:
-        return "NO"
+    return "YES"
+
+grid = ['ebacd', 'fghij', 'olmkn', 'trpqs', 'xywuv']
+
+gridChallenge(grid)
